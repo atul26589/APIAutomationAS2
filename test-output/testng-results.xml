@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7490" started-at="2022-08-14T02:43:07 IST" finished-at="2022-08-14T02:43:15 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7490" started-at="2022-08-14T02:43:07 IST" finished-at="2022-08-14T02:43:15 IST">
+      <class name="com.tmb.tests.AssignmentTests">
+        <test-method status="PASS" signature="assignmentTest()[pri:0, instance:com.tmb.tests.AssignmentTests@34c4973]" name="assignmentTest" duration-ms="7241" started-at="2022-08-14T02:43:07 IST" finished-at="2022-08-14T02:43:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignmentTest -->
+      </class> <!-- com.tmb.tests.AssignmentTests -->
+      <class name="com.tmb.tests.GetTests">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.tmb.tests.GetTests@33c7e1bb]" name="setUpSuite" is-config="true" duration-ms="18" started-at="2022-08-14T02:43:07 IST" finished-at="2022-08-14T02:43:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.tmb.tests.GetTests@33c7e1bb]" name="setUp" is-config="true" duration-ms="2" started-at="2022-08-14T02:43:07 IST" finished-at="2022-08-14T02:43:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tmb.tests.GetTests.getEmployeeDetail(java.lang.Integer,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getEmployeeDetail(java.lang.Integer, java.lang.String)[pri:0, instance:com.tmb.tests.GetTests@33c7e1bb]" name="getEmployeeDetail" duration-ms="7077" started-at="2022-08-14T02:43:07 IST" data-provider="getData" finished-at="2022-08-14T02:43:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Eschweiler]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployeeDetail -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tmb.tests.GetTests@33c7e1bb]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-08-14T02:43:14 IST" finished-at="2022-08-14T02:43:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getEmployeeDetail status=SUCCESS method=GetTests.getEmployeeDetail(java.lang.Integer, java.lang.String)[pri:0, instance:com.tmb.tests.GetTests@33c7e1bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="getEmployeeDetail(java.lang.Integer, java.lang.String)[pri:0, instance:com.tmb.tests.GetTests@33c7e1bb]" name="getEmployeeDetail" duration-ms="112" started-at="2022-08-14T02:43:14 IST" data-provider="getData" finished-at="2022-08-14T02:43:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Palmer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployeeDetail -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.tmb.tests.GetTests@33c7e1bb]" name="setUp" is-config="true" duration-ms="0" started-at="2022-08-14T02:43:14 IST" finished-at="2022-08-14T02:43:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tmb.tests.GetTests.getEmployeeDetail(java.lang.Integer,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tmb.tests.GetTests@33c7e1bb]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-08-14T02:43:15 IST" finished-at="2022-08-14T02:43:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getEmployeeDetail status=SUCCESS method=GetTests.getEmployeeDetail(java.lang.Integer, java.lang.String)[pri:0, instance:com.tmb.tests.GetTests@33c7e1bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="getEmployeeDetail(java.lang.Integer, java.lang.String)[pri:0, instance:com.tmb.tests.GetTests@33c7e1bb]" name="getEmployeeDetail" duration-ms="77" started-at="2022-08-14T02:43:15 IST" data-provider="getData" finished-at="2022-08-14T02:43:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployeeDetail -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.tmb.tests.GetTests@33c7e1bb]" name="setUp" is-config="true" duration-ms="0" started-at="2022-08-14T02:43:15 IST" finished-at="2022-08-14T02:43:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tmb.tests.GetTests.getEmployeeDetail(java.lang.Integer,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tmb.tests.GetTests@33c7e1bb]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-08-14T02:43:15 IST" finished-at="2022-08-14T02:43:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getEmployeeDetail status=SUCCESS method=GetTests.getEmployeeDetail(java.lang.Integer, java.lang.String)[pri:0, instance:com.tmb.tests.GetTests@33c7e1bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.tmb.tests.GetTests@33c7e1bb]" name="setUp" is-config="true" duration-ms="0" started-at="2022-08-14T02:43:15 IST" finished-at="2022-08-14T02:43:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tmb.tests.GetTests.getEmployeeDetails()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getEmployeeDetails()[pri:0, instance:com.tmb.tests.GetTests@33c7e1bb]" name="getEmployeeDetails" duration-ms="103" started-at="2022-08-14T02:43:15 IST" finished-at="2022-08-14T02:43:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployeeDetails -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tmb.tests.GetTests@33c7e1bb]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-08-14T02:43:15 IST" finished-at="2022-08-14T02:43:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getEmployeeDetails status=SUCCESS method=GetTests.getEmployeeDetails()[pri:0, instance:com.tmb.tests.GetTests@33c7e1bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownSuite()[pri:0, instance:com.tmb.tests.GetTests@33c7e1bb]" name="tearDownSuite" is-config="true" duration-ms="0" started-at="2022-08-14T02:43:15 IST" finished-at="2022-08-14T02:43:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.tmb.tests.GetTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

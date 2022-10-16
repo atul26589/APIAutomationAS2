@@ -1,0 +1,12 @@
+{
+    "id": "678012",
+    "first_name": "Atul",
+    "last_name": "Anand",
+    "email": "anan5@levi.com",
+    "jobs":["tester","trainer"],
+    "favFoods":{
+    "breakfast":"idly",
+    "lunch":"rice",
+    "dinner":["chapati","milk"]
+    }
+}
